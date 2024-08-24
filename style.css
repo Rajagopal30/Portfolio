@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.parent-container{
+    width: 100%;
+    float: left;
+}
+html {
+    scroll-behavior:smooth;
+  }
+
+header {
+    color: #fff;
+    text-align: center;
+}
+.logo{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    background-image: url('images/Header.png');
+    padding-top:30px;
+    height: 290px;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.avasoft-logo{
+    margin-top: 20px;
+    width: 350px;
+    height: 70px;
+    cursor: pointer;
+}
+.skills{
+    position: relative;
+}
+.skills-li{
+    display: inline;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills-ul{
+    margin-top: 40px;
+}
+.skills-logo{
+    position:absolute;
+    top:1380px;
+}
+
+.about-h2{
+    font-size: 30px;
+    background-color:rgba(95, 158, 160, 0.241);
+    border: none;
+    padding: 5px 20px;
+}
+.about-p{
+    font-size: 25px;
+    line-height: 50px;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+}
+.resume-href{
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 50px;
+    word-spacing: 5px;
+}
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.copyrights{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.721);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
